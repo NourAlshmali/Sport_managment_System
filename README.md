@@ -201,9 +201,3 @@ The Sports Facility Management System is licensed under the MIT License.
 
 ## 📬 Contact
 For questions, concerns, or feedback, please contact us at [support@example.com](mailto:support@example.com).
-
-## 💖 Thanks Message
-Thank you for using the Sports Facility Management System! This is written by [readme.ai](https://readme-generator-phi.vercel.app/).
-
-
-

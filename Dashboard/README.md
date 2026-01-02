@@ -1,16 +1,71 @@
-# React + Vite
+# 🏟️ Sports Facility Management System
+The Sports Facility Management System is a comprehensive web application designed to manage sports facilities, including stadiums, gyms, and other sports-related venues. The system provides a user-friendly interface for administrators to manage facilities, coaches, and users, while also offering a seamless experience for users to book facilities and access relevant information.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Features
+* User registration and authentication
+* Facility management (stadiums, gyms, etc.)
+* Coach management
+* Booking system for facilities
+* User profile management
+* Admin dashboard for overall system management
+* Route guards for authentication and authorization
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
+* Frontend: React, React Router, Tailwind CSS, Axios
+* Backend: Node.js, Express.js, MongoDB, Mongoose
+* Authentication: JSON Web Tokens (JWT)
+* Deployment: Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Installation
+To install the project, follow these steps:
+1. Clone the repository using `git clone`
+2. Install dependencies using `npm install` or `yarn install`
+3. Start the development server using `npm run dev` or `yarn dev`
 
-## React Compiler
+## 💻 Usage
+1. Start the development server
+2. Open a web browser and navigate to `http://localhost:3000`
+3. Register as a user or login with existing credentials
+4. Explore the application and its features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 Project Structure
+```markdown
+.
+├── Backend
+│   ├── controllers
+│   ├── database
+│   ├── middleware
+│   ├── models
+│   ├── routes
+│   ├── server.js
+│   └── package.json
+├── Frontend
+│   ├── public
+│   ├── src
+│   │   ├── components
+│   │   ├── pages
+│   │   ├── utils
+│   │   ├── App.jsx
+│   │   ├── index.jsx
+│   │   └── main.jsx
+│   ├── tailwind.config.js
+│   ├── vite.config.js
+│   └── package.json
+├── README.md
+└── package.json
+```
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🤝 Contributing
+Contributions are welcome! To contribute, please fork the repository, make changes, and submit a pull request.
+
+## 📝 License
+The Sports Facility Management System is licensed under the MIT License.
+
+## 📬 Contact
+For questions, concerns, or feedback, please contact us at [support@example.com](mailto:support@example.com).
+
+## 💖 Thanks Message
+Thank you for using the Sports Facility Management System! This is written by [readme.ai](https://readme-generator-phi.vercel.app/).
